@@ -1,0 +1,4 @@
+ gcloud auth configure-docker europe-west2-docker.pkg.dev
+
+ docker tag st-tiles:latest europe-west2-docker.pkg.dev/golfington-test/repository-test/golfington-tiles:latest
+ docker push europe-west2-docker.pkg.dev/golfington-test/repository-test/golfington-tiles:latest
